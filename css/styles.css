@@ -10,3 +10,52 @@ body {
 img {
     max-width: 100%;
 }
+
+h1{
+    font-size: 5.8rem;
+    color: #053477;
+}
+
+.fondo-logo{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.imagen-logo{
+    height: 5rem;
+    width: 15rem;
+    margin-left: 40rem;
+    margin-top: 1rem;
+}
+
+.links-superior{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30rem;
+}
+
+.nav-link{
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0 1.5rem;
+}
+
+.inicio{
+    border: black transparent 1px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
