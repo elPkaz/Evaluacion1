@@ -59,3 +59,54 @@ h1{
     text-decoration: none;
     border-radius: 10px;
 }
+
+/* HEADER FIN */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-size: 5rem;
+    color: #2A4B7A;
+}
+
+p{
+    font-size: 1.8rem;
+    color: #053477;
+    text-align: center;
+    margin: 0rem 5rem;
+}
+
+.contenedor-main{
+    display: flex;
+    margin-top: 10rem;
+}
+
+.contenedor-trabajo{
+    display: flex;
+    flex-direction: column;
+}
+
+.nuestro-trabajo{
+    margin: 1rem 0rem;
+    margin-left: 5rem;
+    margin-right: 8rem;
+}
+
+.imagen-trabajo{
+    height: 8rem;
+    width: 8rem;
+}
+
+.contenedor-equipo{
+    display: flex;
+}
+
+.contenedor-contactos{
+    display: flex;
+}
+
+
+
